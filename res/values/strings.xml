@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="apply_settings_title">Apply Settings</string>
+    <string name="apply_settings_summary">Tiles will be ordered as selected</string>
+    <string name="category_options">Options</string>
+    <string name="columns_title">Number of columns per row</string>
+    <string name="columns_summary_off">4 columns</string>
+    <string name="columns_summary_on">3 columns</string>
+    <string name="category_persistent_tiles">Persistent Tiles</string>
+    <string name="tile_user_title">User</string>
+    <string name="tile_settings_title">Settings</string>
+    <string name="tile_brightness_title">Brightness</string>
+    <string name="tile_ringer_title">Ringer Modes</string>
+    <string name="tile_seekbar_title">Brightness and Volume Seekbars</string>
+    <string name="tile_battery_title">Battery</string>
+    <string name="tile_rotation_title">Rotation Lock</string>
+    <string name="tile_airplane_title">Airplane Mode</string>
+    <string name="tile_wifi_title">Wi-Fi</string>
+    <string name="tile_mobile_data_title">Mobile Data</string>
+    <string name="tile_bluetooth_title">Bluetooth</string>
+    <string name="tile_location_title">GPS</string>
+    <string name="tile_screen_off_title">Screen Off</string>
+    <string name="tile_wifi_ap_title">Wi-Fi Access Point</string>
+    <string name="tile_torch_title">Torch</string>
+    <string name="category_temporary_tiles">Temporary Tiles</string>
+    <string name="tile_alarm_title">Alarm</string>
+    <string name="tile_ime_title">IME Chooser</string>
+    <string name="tile_wifi_display_title">Wi-Fi Display</string>
+</resources>

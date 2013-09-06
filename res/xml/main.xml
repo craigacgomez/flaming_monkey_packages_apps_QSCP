@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:title="@string/apply_settings_title"
+        android:key="QS_APPLY"
+        android:summary="@string/apply_settings_summary" />
+
+    <PreferenceCategory
+        android:title="@string/category_options"
+        android:key="QS_COLUMNS_CATEGORY">
+        <CheckBoxPreference
+            android:key="QS_COLUMNS"
+            android:title="@string/columns_title"
+            android:summaryOn="@string/columns_summary_on"
+            android:summaryOff="@string/columns_summary_off"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/category_persistent_tiles"
+        android:key="QS_PERSISTENT_TILES">
+        <CheckBoxPreference
+            android:key="QS_SETTINGS"
+            android:title="@string/tile_settings_title"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="QS_BRIGHTNESS"
+            android:title="@string/tile_brightness_title"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="QS_RINGER"
+            android:title="@string/tile_ringer_title"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="QS_SEEKBAR"
+            android:title="@string/tile_seekbar_title"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="QS_BATTERY"
+            android:title="@string/tile_battery_title"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="QS_ROTATION"
+            android:title="@string/tile_rotation_title"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="QS_AIRPLANE"
+            android:title="@string/tile_airplane_title"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="QS_WIFI"
+            android:title="@string/tile_wifi_title"
+            android:defaultValue="true" />
+        <!-- TODO: Remove dynamically
+        <CheckBoxPreference
+            android:key="QS_MOBILE_DATA"
+            android:title="@string/tile_mobile_data_title"
+            android:defaultValue="false" />
+        -->
+        <CheckBoxPreference
+            android:key="QS_BLUETOOTH"
+            android:title="@string/tile_bluetooth_title"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="QS_LOCATION"
+            android:title="@string/tile_location_title"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="QS_SCREEN_OFF"
+            android:title="@string/tile_screen_off_title"
+            android:defaultValue="false" />
+        <!-- TODO: Remove dynamically
+        <CheckBoxPreference
+            android:key="QS_WIFI_AP"
+            android:title="@string/tile_wifi_ap_title"
+            android:defaultValue="false" />
+        -->
+        <CheckBoxPreference
+            android:key="QS_TORCH"
+            android:title="@string/tile_torch_title"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/category_temporary_tiles"
+        android:key="QS_TEMPORARY_TILES">
+        <CheckBoxPreference
+            android:key="QS_ALARM"
+            android:title="@string/tile_alarm_title"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="QS_IME"
+            android:title="@string/tile_ime_title"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="QS_WIFI_DISPLAY"
+            android:title="@string/tile_wifi_display_title"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>
